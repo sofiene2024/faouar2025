@@ -1,0 +1,5 @@
+smart_irrigation/temperature
+smart_irrigation/humidity
+smart_irrigation/ir_alert
+smart_irrigation/led
+smart_irrigation/relay

@@ -1,0 +1,155 @@
+/* Style pour le séparateur */
+header {
+  background-image: url("Smart_Irrigation1.png");
+  background-size: cover;
+  background-position: center;
+  padding: 60px;
+  text-align: center;
+  color: white;
+}
+.separator {
+    height: 30px;
+    background-color: #FFFFFF; /* Blanc */
+    margin: 20px 0;
+  }
+  
+  /* Style pour l'en-tête */
+  .site-header {
+    display: flex;  /* Aligne les éléments horizontalement */
+    align-items: center;  /* Aligne verticalement au centre */
+    padding: 20;
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  
+  /* Style du logo */
+  .logo {
+    width: 100;
+    height: 100px;
+    margin-bottom: 0px; /* Espace entre le logo et le titre */
+    margin-right: 10px
+    margin-lef: 10px
+  }
+  #app-logo {
+    position: fixed;
+    margin-bottom: 50px;
+    right: 10px;        /* Distance du bord droit */
+    width: 200px;        /* Largeur du logo, ajustez selon votre besoin */
+    height: 200;       /* Garde le ratio de l'image */
+}
+ 
+  /* Style du titre du site */
+  .site-title {
+    font-size: 24px;
+    color: #003366;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+  }
+  #name-label {
+    position: fixed;
+    bottom: 20px;       /* Distance du bas de la page */
+    right: 20px;        /* Distance du bord droit */
+    font-size: 20px;    /* Taille de la police */
+    font-weight: bold;  /* Met en gras le texte */
+    color: blue;        /* Couleur du texte */
+}
+#year-label {
+  position: fixed;
+  bottom: 20px;          /* Distance du haut de la page */
+  left: 20px;         /* Distance du bord gauche */
+  font-size: 20px;    /* Taille de la police */
+  font-weight: bold;  /* Texte en gras */
+  color: blue;        /* Couleur du texte en bleu */
+}
+  /* Style pour le conteneur des capteurs et des boutons */
+  .control-panel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 300px;
+    margin: 5 auto;
+    align-items: center;
+    margin: 70px 20px 10px 300px;
+  }
+  
+  /* Style des labels de température et d'humidité */
+  .label {
+    color: #003366;
+    font-weight: bold;
+    margin-left: 10px; /* Espacement entre l'image et le texte */
+  }
+  
+  /* Style pour les images des capteurs */
+  .sensor-icon {
+    width: 100px; /* Taille réduite de l'image */
+    height: 50px; /* Taille réduite de l'image */
+    vertical-align: middle; /* Aligne l'image avec le texte */
+  }
+  
+  /* Style pour les zones de texte */
+  .sensor-display {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sensor-display input {
+    width: 80px;
+    padding: 8px;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  /* Style pour les boutons */
+  button {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .alert-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .Alert {
+    font-size: 2em; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+    color: red; /* Couleur du texte */
+    text-align: center; /* Centrage du texte */
+    justify-content: center;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  .logout-text {
+  text-align: center;
+  bottom: 0px; 
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.logout-text a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.logout-text a:hover {
+  text-decoration: underline;
+}
+
+  
